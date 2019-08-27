@@ -14,6 +14,7 @@ import { BuyerLandingPage } from '../pages/buyer-landing/buyer-landing';
 import { ProductListPage } from '../pages/product-list/product-list';
 import { ContactPage } from '../pages/contact/contact';
 import { ProductOfferPage } from '../pages/product-offer/product-offer';
+import { NegotiationsPage } from '../pages/negotiations/negotiations';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { ProductOfferPage } from '../pages/product-offer/product-offer';
     BuyerLandingPage,
     ProductListPage,
     ContactPage,
-    ProductOfferPage
+    ProductOfferPage,
+    NegotiationsPage
   ],
   imports: [
     BrowserModule,
@@ -42,7 +44,8 @@ import { ProductOfferPage } from '../pages/product-offer/product-offer';
     BuyerLandingPage,
     ProductListPage,
     ContactPage,
-    ProductOfferPage
+    ProductOfferPage,
+    NegotiationsPage
   ],
   providers: [
     StatusBar,

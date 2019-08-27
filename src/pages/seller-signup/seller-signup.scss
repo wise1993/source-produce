@@ -4,6 +4,21 @@ page-seller-signup {
   outline-color: blue !important;
 }
 
+.item-md {
+  padding-left: 0px;
+  padding-right: 0;
+  position: relative;
+  font-size: 1.6rem;
+  font-weight: normal;
+  text-transform: none;
+  color: #2f2e2e;
+  background-color: #F44336;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .item.item-select {
   background: rgba(0, 0, 0, .1);
 }
@@ -11,7 +26,6 @@ page-seller-signup {
 .item.item-input {
   margin-top: 5px;
   background-color: transparent;
-  // background: rgba(0, 0, 0, .1);
   border-radius: 0.5em !important;
   border: 1px solid #1a426d;
 }
