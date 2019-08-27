@@ -1,0 +1,66 @@
+
+
+<ion-header no-border>
+    <ion-toolbar color="primary">
+      <button ion-button menuToggle end>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title>
+        <img src="assets/icon/logo.svg">
+      </ion-title>
+      <ion-buttons>
+        <button ion-button icon-only (click)="back()">
+          <ion-icon name="arrow-back"></ion-icon>
+        </button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+
+<ion-content padding>
+  <p style="text-align: center">Kindly provide us with the following details </p>
+
+  <ion-label stacked color="secondary">Seller</ion-label>
+  <ion-item>
+      <ion-input type="text" [(ngModel)]="seller"></ion-input>
+  </ion-item>
+  <br/>
+  <ion-label stacked color="secondary">First Name</ion-label>
+  <ion-item>
+      <ion-input type="text" [(ngModel)]="firstName"></ion-input>
+  </ion-item>
+  <br/>
+  <ion-label stacked color="secondary">Last Name</ion-label>
+  <ion-item>
+      <ion-input type="text" [(ngModel)]="lastName"></ion-input>
+  </ion-item>
+  <br/>
+  <ion-label stacked color="secondary">Country</ion-label>
+  <ion-item>
+      <ion-input type="text" [(ngModel)]="country"></ion-input>
+  </ion-item>
+  <br/>
+  <ion-label stacked color="secondary">Role in Company</ion-label>
+  <ion-item>
+      <ion-input type="text" [(ngModel)]="role"></ion-input>
+  </ion-item>
+  <br/>
+  <ion-label stacked color="secondary">Company's Website URL</ion-label>
+  <ion-item>
+      <ion-input type="text" [(ngModel)]="website"></ion-input>
+  </ion-item>
+  <br/>
+  <ion-label stacked color="secondary">Email Address</ion-label>
+  <ion-item>
+      <ion-input type="text" [(ngModel)]="email"></ion-input>
+  </ion-item>
+  <br/>
+  <ion-label stacked color="secondary">Phone Number</ion-label>
+  <ion-item>
+      <ion-input type="text" [(ngModel)]="phone"></ion-input>
+  </ion-item>
+  <div class="cen">
+      <button ion-button size="large" color="primary">
+          Submit
+      </button>
+  </div>
+</ion-content>

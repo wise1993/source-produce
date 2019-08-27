@@ -1,0 +1,23 @@
+page-buyer-signup {
+  .item.item-input:focus {
+    border: 4px solid yellow !important;
+    outline-color: blue !important;
+  }
+
+  .item.item-select {
+    background: rgba(0, 0, 0, .1);
+  }
+
+  .item.item-input {
+    margin-top: 5px;
+    background-color: transparent;
+    // background: rgba(0, 0, 0, .1);
+    border-radius: 0.5em !important;
+    border: 1px solid #1a426d;
+  }
+
+  .cen {
+    margin-left: 35%;
+    margin-top: 10%;
+  }
+}

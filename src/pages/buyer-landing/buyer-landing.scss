@@ -1,0 +1,199 @@
+page-buyer-landing {
+
+  .header-title {
+    background: linear-gradient(346.64deg, #F44336 3.67%, #F2994A 84.87%);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.13);
+    margin-top: -16px;
+    padding: 15px;
+    // height: 151px;
+    margin-bottom: 10px;
+  }
+
+  .header-title h2 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 33px;
+    margin-top: -19px;
+    margin-bottom: 8px;
+    color: #F2F2F2;
+  }
+
+  .header-title h4 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 0.08em;
+    color: #fff;
+  }
+
+  .mapHome {
+    display: inline-block;
+    min-width: 120.1px;
+    min-height: 120.1px;
+    contain: strict;
+    position: absolute;
+    left: 249px;
+    top: 1.9px;
+    background: transparent;
+  }
+
+  .homeBg {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 195px;
+    height: 32px;
+    margin-left: 2px;
+    display: inline-block;
+  }
+
+  .homeBg img {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    margin-top: 6px;
+    margin-left: 13px;
+    margin-right: 10px;
+    margin-bottom: -4px;
+  }
+
+  .homeBg span {
+    display: inline-block;
+    color: #fff;
+  }
+
+  .cardBg {
+    padding: 20px;
+  }
+
+  .card-md p {
+    margin: 0 0 2px;
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #fff;
+  }
+
+  [cards] {
+
+    .grid-full ion-col {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 50%;
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+      padding: 5px 0;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+
+    .row {
+      padding: 0 12px;
+    }
+
+    .col {
+      padding: 5px 0;
+    }
+
+    .card {
+      height: 100px;
+      margin: 0 5px;
+      width: calc(80% - -10px);
+      padding: 14px;
+      -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+      border-radius: 4px;
+
+      h1 {
+        font-weight: 400;
+        font-size: 3.5rem;
+      }
+
+      p {
+        font-weight: 100;
+        font-size: 14px;
+      }
+    }
+
+    
+  }
+  
+  .first-cd {
+    background: #2196F3;
+    box-shadow: 0px 7px 6px rgba(157, 157, 157, 0.28);
+    border-radius: 10px;
+    color: #fff
+  }
+
+  .second-cd {
+    background: #AED739;
+    box-shadow: 0px 7px 6px rgba(157, 157, 157, 0.28);
+    border-radius: 10px;
+  }
+
+  .third-cd {
+    background: #8E24AA;
+    box-shadow: 0px 7px 6px rgba(157, 157, 157, 0.28);
+    border-radius: 10px;
+  }
+
+  .fourth-cd {
+    background: #B71C1C;
+    box-shadow: 0px 7px 6px rgba(157, 157, 157, 0.28);
+    border-radius: 10px;
+  }
+
+  .col p {
+    text-align: center
+  }
+
+  ion-card img {
+    display: block;
+    width: 40px;
+    height: 40px;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+  .help {
+    margin-top: -1em;
+  }
+
+  .help p {
+    text-align: center;
+    color: #607D8B;
+    margin-bottom: 0;
+    margin-top: 25px;
+  }
+
+  .cen {
+    text-align: center
+  }
+
+  .button-md-primary {
+    color: #fff;
+    background: #F44336;
+    border-radius: 30px;
+    padding: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .button-inner img {
+    height: 20px;
+    margin-right: 15px;
+  }
+
+}

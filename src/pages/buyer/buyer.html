@@ -1,0 +1,32 @@
+<ion-header no-border>
+  <ion-toolbar color="primary">
+    <button ion-button menuToggle end>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      <img src="assets/icon/logo.svg">
+    </ion-title>
+    <ion-buttons>
+      <button ion-button icon-only>
+        <ion-icon name="arrow-back"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="image-bg">
+    <ion-img class="map" src="../assets/imgs/Buyer.png" ></ion-img>
+    <p>Our buyers are companies looking to source agricultural commodites across Africa.
+       We offer spices, oilseeds, herbs and nuts from across the continent.</p>
+  </div>
+
+  <div class="butt">
+      <button class="reg" ion-button size="large" color="primary" (click)="BuyerSignUp()"> Register </button>
+      <button class="log" ion-button size="large" color="light"> 
+        <span class="button-inner-log">
+          Login
+        </span>
+      </button>
+  </div>
+</ion-content>

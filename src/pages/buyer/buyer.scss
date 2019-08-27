@@ -1,0 +1,42 @@
+page-buyer {
+    .map {
+        display: inline-block;
+        contain: strict;
+        display: block;
+        width: 114px;
+        height: 85px;
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        margin: auto;
+        margin-top: 45px;
+        background: #ffffff
+    }
+    .image-bg p{
+        font-family: Avenir Next LT Pro;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        color: #4f4f4f;
+    }
+    .image-bg img{
+        height: 85px;
+    }
+    .butt {
+        margin-top: 82px;
+        text-align: center
+    }
+    .reg {
+        border-radius: 5px;
+    }
+    .log {
+        border: 2px solid #F44336;
+        box-sizing: border-box;
+        border-radius: 5px;
+    }
+    .button-inner-log{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

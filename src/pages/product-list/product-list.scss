@@ -1,0 +1,41 @@
+page-product-list {
+    .txt p{
+        margin: 0;
+        text-align: center;
+        color: #4F4F4F
+    }
+
+    .content-md hr {
+        background-color: #AED739;
+        border-radius: 4.49721px;
+        height: 2px
+
+    }
+    .pad {
+        padding: 10px
+    }
+    .pad p {
+        text-align: center;
+        color: #4F4F4F;
+        font-size: 13px
+    }
+    .pad img {
+        width: 100%;
+        height: 80px;
+    }
+    footer {
+        position: sticky;
+        height: 50px;
+        text-align: center;
+        z-index: 10;
+        display: block;
+        width: 100%;
+        border-top: 1px solid #ffffff;
+        background: #fff;
+        color: #4F4F4F;
+        bottom: -16px;
+        padding-top: 7px;
+        line-height: 20px;
+    }
+
+}

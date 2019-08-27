@@ -1,0 +1,64 @@
+<ion-header no-border>
+  <ion-toolbar color="primary">
+    <button ion-button menuToggle start>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      <img src="assets/icon/logo.svg">
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  
+  <div class="header-title">
+    <h4>Welcome to:</h4>
+    <h2>Sourcing Produce</h2>
+  </div>
+
+  <div cards>
+    <div class="grid-full">
+      <ion-row>
+        <ion-col>
+          <ion-card class="first-cd" >
+            <img src="../assets/imgs/Buyer.png" (click)="gotoBuyer()">
+            <p>Buyers</p>
+          </ion-card>
+        </ion-col>
+
+        <ion-col>
+          <ion-card class="second-cd">
+              <img src="../assets/imgs/Seller Icon.png">
+            <p>Sellers</p>
+          </ion-card>
+        </ion-col>
+
+        <ion-col>
+          <ion-card class="third-cd">
+              <img src="../assets/imgs/news.png">
+            <p>News</p>
+          </ion-card>
+        </ion-col>
+
+        <ion-col>
+          <ion-card class="fourth-cd">
+              <img src="../assets/imgs/Track.png">
+            <p>Track</p>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </div>
+  </div>
+
+<div class="help">
+  <p>Need help?</p>
+</div>
+
+<div class="cen">
+    <button ion-button size="large" color="primary">
+      <img src="../assets/imgs/chat.png">
+      Contact us
+    </button>
+  </div>
+
+</ion-content>

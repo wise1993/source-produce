@@ -1,0 +1,92 @@
+page-product-offer {
+    .txt h2 {
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        color: #4F4F4F
+    }
+
+    .txt h3 {
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        text-align: center;
+        color: #4F4F4F;
+        margin-bottom: 20px;
+    }
+    
+    .card-header-md {
+        padding: 5px 0 5px 14px;
+        background: linear-gradient(357.86deg, #F44336 3.67%, #F2994A 84.87%);
+        border-radius: 5px 5px 0px 0px;
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .offer ul {
+        display: block;
+        list-style-type: disc;
+        -webkit-margin-before: 1em;
+        margin-block-start: 0em;
+        -webkit-margin-after: 1em;
+        margin-block-end: 0em;
+        -webkit-margin-start: 0px;
+        margin-inline-start: 0px;
+        -webkit-margin-end: 0px;
+        margin-inline-end: 0px;
+        -webkit-padding-start: 32px;
+        padding-inline-start: 11px;
+    }
+
+    .offer ul>li>a {
+        color: #4f4f4f;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    [col-1] {
+        padding: 7px 2px 0px 0;
+    }
+
+    .col-1 img {
+        padding-bottom: 3px
+    }
+
+    .content-md {
+        color: #f44336;
+        background-color: #fff;
+    }
+
+    .pad img {
+        padding: 5px;
+    }
+
+    @media screen and (max-width: 360px) {
+        .pad img {
+            display: block;
+            width: 100%;
+            position: relative;
+            top: 5px;
+            padding: 0px
+        }
+
+        [col-1] {
+            padding: 12px 2px 0 0;
+        }
+
+        .col-1 img {
+            padding-bottom: 6px
+        }
+
+        .offer ul > li > a {
+            color: #4f4f4f;
+            font-size: 11px;
+            line-height: 16px;
+        }
+    }
+    
+}

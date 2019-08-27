@@ -1,0 +1,7 @@
+{
+  "name": "tech-conn",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

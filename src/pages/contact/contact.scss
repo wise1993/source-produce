@@ -1,0 +1,46 @@
+page-contact {
+    .pro p {
+        text-align: center;
+        color: #4f4f4f;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .item-md {
+        padding-left: 0px;
+        padding-right: 0;
+        position: relative;
+        font-size: 1.3rem;
+        font-weight: normal;
+        text-transform: none;
+        color: #4f4f4f;
+        background-color: #ffffff;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        -webkit-transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        border: 1px solid #828282;
+        box-sizing: border-box;
+        border-radius: 5px;
+        height: 15px;
+    }
+
+    .label-md-primary, .item-input .label-md-primary, .item-select .label-md-primary, .item-datetime .label-md-primary {
+        color: #F2994A;
+        margin-left: 37px;
+        margin-bottom: 5px;
+    }
+
+    .item-block {
+        width: 80%;
+        min-height: 3.4rem;
+        margin: auto;
+    }
+
+    .button-md-primary {
+        color: #fff;
+        background-color: #F44336;
+        position: relative;
+        left: 128px;
+        top: 20px;
+    }
+}

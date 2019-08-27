@@ -1,0 +1,57 @@
+<ion-header no-border>
+  <ion-toolbar color="primary">
+    <button ion-button menuToggle end>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      <img src="../assets/icon/logo.svg">
+    </ion-title>
+    <ion-buttons>
+      <button ion-button icon-only>
+        <ion-icon name="arrow-back"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <div class="pro">
+    <p>What product are you looking for?</p>
+  </div>
+
+  <ion-label color="primary">Product</ion-label>
+  <ion-item>
+    <ion-input placeholder="Enter Product" clearInput></ion-input>
+  </ion-item>
+
+  <div class="option">
+      <ion-label color="primary">Preferred Origin</ion-label>
+      <ion-item>
+        <ion-label>Anywhere</ion-label>
+        <ion-select [(ngModel)]="toppings" multiple="true" okText="Ok" cancelText="Cancel">
+          <ion-option>Bacon</ion-option>
+          <ion-option>Black Olives</ion-option>
+          <ion-option>Extra Cheese</ion-option>
+          <ion-option>Mushrooms</ion-option>
+          <ion-option>Pepperoni</ion-option>
+          <ion-option>Sausage</ion-option>
+        </ion-select>
+      </ion-item>
+  </div>
+
+
+  <!-- <ion-list>
+    <ion-list-header>Objects as Values (compareWith)</ion-list-header>
+  
+    <ion-item>
+      <ion-label>Users</ion-label>
+      <ion-select [compareWith]="compareWith">
+        <ion-select-option  *ngFor="let user of users">{{user.first + ' ' + user.last}}</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list> -->
+
+  <button class="reg" ion-button size="large" color="primary"> Submit </button>
+
+</ion-content>
