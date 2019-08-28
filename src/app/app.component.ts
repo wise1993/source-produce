@@ -13,6 +13,7 @@ import { BuyerPage } from '../pages/buyer/buyer';
 import { BuyerLandingPage } from '../pages/buyer-landing/buyer-landing';
 import { ProductListPage } from '../pages/product-list/product-list';
 import { NegotiationsPage } from '../pages/negotiations/negotiations';
+import { CancelNegotiationPage } from '../pages/cancel-negotiation/cancel-negotiation';
 
 
 @Component({
@@ -74,12 +75,14 @@ export class MyApp {
       { title: 'Home', component: HomePage },
       { title: 'Contact', component: ContactPage },
       { title: 'Buyer', component: BuyerPage },
-      { title: 'BuyerLanding', component: BuyerLandingPage },
-      { title: 'ProductList', component: ProductListPage },
-      { title: 'SellerSignup', component: SellerSignupPage },
-      { title: 'ProductOffer', component: ProductOfferPage },
-      {title: 'BuyerSignUp', component: BuyerSignupPage},
-      {title: 'Negotiations', component: NegotiationsPage}
+      { title: 'Buyer Landing', component: BuyerLandingPage },
+      { title: 'Product List', component: ProductListPage },
+      { title: 'Seller Signup', component: SellerSignupPage },
+      { title: 'Product Offer', component: ProductOfferPage },
+      {title: 'Buyer SignUp', component: BuyerSignupPage},
+      {title: 'Negotiations', component: NegotiationsPage},
+      {title: 'Cancel Negotiation', component: CancelNegotiationPage}
+
     ];
 
   }

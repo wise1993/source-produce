@@ -15,6 +15,7 @@ import { ProductListPage } from '../pages/product-list/product-list';
 import { ContactPage } from '../pages/contact/contact';
 import { ProductOfferPage } from '../pages/product-offer/product-offer';
 import { NegotiationsPage } from '../pages/negotiations/negotiations';
+import { CancelNegotiationPage } from '../pages/cancel-negotiation/cancel-negotiation';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { NegotiationsPage } from '../pages/negotiations/negotiations';
     ProductListPage,
     ContactPage,
     ProductOfferPage,
-    NegotiationsPage
+    NegotiationsPage,
+    CancelNegotiationPage
   ],
   imports: [
     BrowserModule,
@@ -45,7 +47,8 @@ import { NegotiationsPage } from '../pages/negotiations/negotiations';
     ProductListPage,
     ContactPage,
     ProductOfferPage,
-    NegotiationsPage
+    NegotiationsPage,
+    CancelNegotiationPage
   ],
   providers: [
     StatusBar,
