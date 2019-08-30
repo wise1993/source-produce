@@ -40,18 +40,15 @@
       </ion-item>
   </div>
 
+  <div class="more">
+    <button ion-button size="large" color="primary" (click)="productOffer()"> 
+      <span>More Product</span> 
+      <ion-icon ios="ios-add-circle" md="md-add-circle" item-right></ion-icon>
+    </button>
+  </div>
 
-  <!-- <ion-list>
-    <ion-list-header>Objects as Values (compareWith)</ion-list-header>
-  
-    <ion-item>
-      <ion-label>Users</ion-label>
-      <ion-select [compareWith]="compareWith">
-        <ion-select-option  *ngFor="let user of users">{{user.first + ' ' + user.last}}</ion-select-option>
-      </ion-select>
-    </ion-item>
-  </ion-list> -->
-
-  <button class="reg" ion-button size="large" color="primary"> Submit </button>
+  <div class="reg-bt">
+    <button class="reg" ion-button size="large" color="primary"> Submit </button>
+  </div>
 
 </ion-content>

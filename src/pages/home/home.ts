@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
 import { BuyerPage } from '../buyer/buyer';
+import { ContactPage } from '../contact/contact';
 
 @Component({
   selector: 'page-home',
@@ -15,5 +16,9 @@ export class HomePage {
 
   gotoBuyer(){
     this.navCtrl.push(BuyerPage);
+  }
+
+  gotoContact() {
+    this.navCtrl.push(ContactPage);
   }
 }

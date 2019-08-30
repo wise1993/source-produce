@@ -9,6 +9,46 @@
     </div>
   </div>
 
+  <div class="option">
+    <ion-label color="primary">Country</ion-label>
+    <ion-item>
+      <ion-label></ion-label>
+      <ion-select [(ngModel)]="toppings" multiple="true" okText="Ok" cancelText="Cancel">
+        <ion-option>Bacon</ion-option>
+        <ion-option>Black Olives</ion-option>
+        <ion-option>Extra Cheese</ion-option>
+        <ion-option>Mushrooms</ion-option>
+        <ion-option>Pepperoni</ion-option>
+        <ion-option>Sausage</ion-option>
+      </ion-select>
+    </ion-item>
+  </div>      
+
+  <div class="option">
+    <ion-label color="primary">Port</ion-label>
+    <ion-item>
+      <ion-label></ion-label>
+      <ion-select [(ngModel)]="toppings" multiple="true" okText="Ok" cancelText="Cancel">
+        <ion-option>Bacon</ion-option>
+        <ion-option>Black Olives</ion-option>
+        <ion-option>Extra Cheese</ion-option>
+        <ion-option>Mushrooms</ion-option>
+        <ion-option>Pepperoni</ion-option>
+        <ion-option>Sausage</ion-option>
+      </ion-select>
+    </ion-item>
+  </div>  
   
+  <div class="proed">
+    <p>Prices are al indictive until contract is signed</p>
+  </div>
+
+  <div class="reg-bt">
+    <button class="reg" ion-button size="large" color="primary"> Proceed </button>
+  </div>
+
+  <div class="imgEd">
+    <img src="../assets/imgs/image.png">
+  </div>
 
 </ion-content>
