@@ -1,3 +1,69 @@
 page-cancel-negotiation {
 
+    .txt h2 {
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        color: #EA4335
+    }
+
+    .txt h3 {
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        text-align: center;
+        color: #4F4F4F;
+        margin-bottom: 20px;
+    }
+
+    .imageBg {
+        width: 100%;
+        margin: auto
+    }
+    
+    .imageBg img {
+        margin: 0 40% 0 40%;
+    }
+
+    .card-md {
+        margin: 10px;
+        width: calc(100% - 20px);
+        font-size: 1.4rem;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+        background: linear-gradient(352.67deg, #F44336 3.67%, #F2994A 84.87%);
+        border-radius: 5px;
+        color: #fff;
+    }
+    .row {
+        padding: 10px
+    }
+    [col-1] {
+        padding: 1px 4px 0 4px;
+        border: 2px solid #f37040;
+        background: #fff;
+        color: #c1c130;
+        border-radius: 41%;
+        height: 27px;
+        width: 35px;
+        max-width: 43px;
+        margin-top: 5px;
+        font-size: 16px;
+    }
+    .text-edit span {
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 20px;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+        // padding: 5px;
+    }
 }

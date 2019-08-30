@@ -1,0 +1,173 @@
+page-more-details {
+  .header-title {
+    background: linear-gradient(346.64deg, #F44336 3.67%, #F2994A 84.87%);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.13);
+    margin-top: -16px;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+
+  .header-title h2 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 33px;
+    margin-top: -19px;
+    margin-bottom: 8px;
+    color: #F2F2F2;
+  }
+
+  .header-title h4 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 0.08em;
+    color: #fff;
+    text-align: center
+  }
+
+  .mapHome {
+    display: inline-block;
+    min-width: 120.1px;
+    min-height: 120.1px;
+    contain: strict;
+    position: absolute;
+    left: 249px;
+    top: 1.9px;
+    background: transparent;
+  }
+
+  .homeBg {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 195px;
+    height: 32px;
+    margin-left: 2px;
+    display: inline-block;
+  }
+
+  .homeBg img {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    margin-top: 6px;
+    margin-left: 13px;
+    margin-right: 10px;
+    margin-bottom: -4px;
+  }
+
+  .homeBg span {
+    display: inline-block;
+    color: #fff;
+  }
+
+  .cardBg {
+    padding: 20px;
+  }
+
+  .card-md p {
+    margin: 0 0 2px;
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #fff;
+  }
+
+  .card-md {
+    width: calc(50% - 20px);
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    margin: 20px auto 20px auto;
+    border-radius: 5px;
+  }
+
+  [cards] {
+
+    .grid-full ion-col {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 50%;
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+      padding: 5px 0;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+
+    .row {
+      padding: 0 12px;
+    }
+
+    .col {
+      padding: 5px 0;
+    }
+
+    .card {
+      height: 100px;
+      margin: 0 5px;
+      width: calc(80% - -10px);
+      padding: 14px;
+      -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+      border-radius: 4px;
+
+      h1 {
+        font-weight: 400;
+        font-size: 3.5rem;
+      }
+
+      p {
+        font-weight: 100;
+        font-size: 14px;
+      }
+    }
+
+
+  }
+
+  .centre-img {
+    text-align: center
+  }
+  
+  .centre-img span {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .card-text .card-md {
+    background: #FFFFFF;
+    box-shadow: 0px 7px 6px rgba(125, 125, 125, 0.19);
+    border-radius: 10px;
+    width: calc(90% - 20px);
+    padding: 20px 10% 20px 10%;
+  }
+
+  .card-header-text h2 {
+    color:#607D8B;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+  }
+
+  .card-header-text h3 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #F44336;
+    margin-bottom: 10px;
+  }
+}

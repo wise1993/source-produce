@@ -16,6 +16,8 @@ import { ContactPage } from '../pages/contact/contact';
 import { ProductOfferPage } from '../pages/product-offer/product-offer';
 import { NegotiationsPage } from '../pages/negotiations/negotiations';
 import { CancelNegotiationPage } from '../pages/cancel-negotiation/cancel-negotiation';
+import { MoreDetailsPage } from '../pages/more-details/more-details';
+import { ShippingPage } from '../pages/shipping/shipping';
 
 
 @NgModule({
@@ -30,7 +32,9 @@ import { CancelNegotiationPage } from '../pages/cancel-negotiation/cancel-negoti
     ContactPage,
     ProductOfferPage,
     NegotiationsPage,
-    CancelNegotiationPage
+    CancelNegotiationPage,
+    MoreDetailsPage,
+    ShippingPage
   ],
   imports: [
     BrowserModule,
@@ -48,7 +52,9 @@ import { CancelNegotiationPage } from '../pages/cancel-negotiation/cancel-negoti
     ContactPage,
     ProductOfferPage,
     NegotiationsPage,
-    CancelNegotiationPage
+    CancelNegotiationPage,
+    MoreDetailsPage,
+    ShippingPage
   ],
   providers: [
     StatusBar,

@@ -14,6 +14,8 @@ import { BuyerLandingPage } from '../pages/buyer-landing/buyer-landing';
 import { ProductListPage } from '../pages/product-list/product-list';
 import { NegotiationsPage } from '../pages/negotiations/negotiations';
 import { CancelNegotiationPage } from '../pages/cancel-negotiation/cancel-negotiation';
+import { MoreDetailsPage } from '../pages/more-details/more-details';
+import { ShippingPage } from '../pages/shipping/shipping';
 
 
 @Component({
@@ -23,7 +25,7 @@ export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
   // rootPage: any = HomePage;
-  rootPage: any = NegotiationsPage;
+  rootPage: any = ShippingPage;
 
   pages: Array<{title: string, component: any}>;
 
@@ -81,7 +83,9 @@ export class MyApp {
       { title: 'Product Offer', component: ProductOfferPage },
       {title: 'Buyer SignUp', component: BuyerSignupPage},
       {title: 'Negotiations', component: NegotiationsPage},
-      {title: 'Cancel Negotiation', component: CancelNegotiationPage}
+      {title: 'Cancel Negotiation', component: CancelNegotiationPage},
+      {title: 'More Details', component: MoreDetailsPage},
+      {title: 'Shipping', component: ShippingPage},
 
     ];
 
