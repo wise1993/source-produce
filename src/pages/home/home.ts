@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { Component, ViewChild } from '@angular/core';
+import { NavController, Navbar } from 'ionic-angular';
 
 import { BuyerPage } from '../buyer/buyer';
 import { ContactPage } from '../contact/contact';
@@ -9,6 +9,8 @@ import { ContactPage } from '../contact/contact';
   templateUrl: 'home.html'
 })
 export class HomePage {
+
+ 
 
   constructor(public navCtrl: NavController) {
 
@@ -21,4 +23,6 @@ export class HomePage {
   gotoContact() {
     this.navCtrl.push(ContactPage);
   }
+
+  
 }
